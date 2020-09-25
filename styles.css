@@ -23,3 +23,25 @@ html{
     color: var(--body-font-color);
     scroll-behavior: smooth;
 }
+
+section {
+    padding: 3.9rem 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 122.5rem;
+}
