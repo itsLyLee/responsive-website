@@ -179,3 +179,18 @@ header{
     font-weight: 900;
     letter-spacing: .5rem;
     margin-right: -.5rem;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 100%;
+    max-width: 8.4rem;
+    height: .25rem;
+    background-color: #fff;
+    position: relative;
+}
