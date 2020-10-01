@@ -10,6 +10,10 @@ menuToggler.addEventListener("click", function () {
   body.classList.toggle("open");
 });
 
+$(".menu-toggle").on("click", function () {
+  $(".menu-toggle").click();
+});
+
 // Scroll reveal
 window.sr = ScrollReveal();
 
