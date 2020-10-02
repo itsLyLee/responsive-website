@@ -403,6 +403,7 @@ header {
 
 /* Footer */
 footer {
+  width: 100%;
   padding: 7.9rem;
   background-color: #121212;
   color: #fff;
@@ -431,6 +432,8 @@ footer {
 
 .footer-content {
   overflow: hidden;
+  display: inline-block;
+  text-align: center;
 }
 
 .footer-content h4 {
@@ -573,6 +576,10 @@ footer {
   .restaurant-info {
     display: flex;
     align-items: center;
+  }
+  .mystory-img {
+    max-height: 100%;
+    max-width: auto;
   }
 
   .restaurant-info > div {
