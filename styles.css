@@ -46,6 +46,14 @@ img {
   color: #fff;
 }
 
+.lylee-text {
+  font-family: var(--secondary-font);
+  color: var(--third-font-color);
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: -30px;
+}
+
 a {
   text-decoration: none;
 }
