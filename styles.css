@@ -13,9 +13,10 @@
   --main-font: "Source Sans Pro", sans-serif;
   --secondary-font: "Herr Von Muellerhoff", cursive;
   --body-font: "Cabin", sans-serif;
-  --main-font-color-dark: #252525;
-  --secondary-font-color: #c59d5f;
-  --body-font-color: #515151;
+  --main-font-color-dark: #000000;
+  --secondary-font-color: #fafafa;
+  --third-font-color: #ce93c9;
+  --body-font-color: #ebbae7;
 }
 
 html {
@@ -173,8 +174,9 @@ header {
   font-size: 8.5rem;
   font-family: var(--secondary-font);
   color: var(--secondary-font-color);
-  font-weight: 100;
-  line-height: 0.4;
+  text-shadow: 1px 1px rgb(82, 80, 80);
+  font-weight: 300;
+  line-height: 0.7;
   letter-spacing: 2px;
   opacity: 0;
   animation: fadeUp 0.5s forwards;
@@ -190,6 +192,7 @@ header {
   color: #fff;
   font-size: 3.7rem;
   font-family: var(--main-font);
+  text-shadow: 1px 1px rgb(82, 80, 80);
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -201,6 +204,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 1px 1px rgb(82, 80, 80);
 }
 
 .line {
@@ -229,11 +233,13 @@ header {
 .line-right::before {
   border-right-color: #fff;
   right: 0;
+  text-shadow: 1px 1px rgb(82, 80, 80);
 }
 
 .line-left::before {
   border-left-color: #fff;
   left: 0;
+  text-shadow: 1px 1px rgb(82, 80, 80);
 }
 
 .asterisk {
@@ -243,6 +249,7 @@ header {
   opacity: 0;
   animation: spin 0.5s forwards;
   animation-delay: 0.7s;
+  text-shadow: 1px 1px rgb(82, 80, 80);
 }
 
 .single-animation {
@@ -254,8 +261,9 @@ header {
 .headline-description h5 {
   color: #fff;
   font-size: 1.4rem;
-  font-weight: 100;
+  font-weight: 200;
   text-transform: uppercase;
+  text-shadow: 1px 1px rgb(82, 80, 80);
   margin-bottom: 1.2rem;
   letter-spacing: 3px;
   margin-right: -3px;
@@ -352,7 +360,7 @@ header {
 
 /* Tasteful recipes */
 .tasteful-recipes {
-  background: url("images/tasteful-recipes.jpg") center no-repeat;
+  background: url("images/donut.jpg") center no-repeat;
   background-size: cover;
 }
 
