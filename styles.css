@@ -156,7 +156,7 @@ header {
 }
 
 .nav-link:hover {
-  color: var(--secondary-font-color);
+  color: var(--third-font-color);
 }
 
 /*Hero*/
@@ -384,7 +384,7 @@ header {
 
 /* The perfect blend */
 .perfect-blend {
-  background: url("images/perfect-blend.jpg") center no-repeat;
+  background: url("images/recipes.jpg") center no-repeat;
   background-size: cover;
 }
 
