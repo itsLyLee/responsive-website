@@ -22,7 +22,7 @@
 html {
   font-family: var(--body-font);
   font-size: 10px;
-  color: var(--body-font-color);
+  color: var(--main-font-color-dark);
   scroll-behavior: smooth;
 }
 
@@ -351,6 +351,14 @@ header {
   margin-bottom: 2.4rem;
 }
 
+#minimalistbaker {
+  color: var(--body-font-color);
+}
+
+#minilistbaker:hover {
+  color: var(--body-font-color) !important;
+}
+
 .body-btn {
   font-size: 1.5rem;
   color: var(--secondary-font-color);
@@ -389,6 +397,10 @@ header {
   min-height: 65vh;
   display: flex;
   align-items: center;
+}
+
+#carrotcake {
+  color: var(--body-font-color);
 }
 
 /* Discover our menu */
