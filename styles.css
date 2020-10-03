@@ -59,12 +59,12 @@ a {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 .container {
   width: 100%;
-  max-width: 122.5rem;
+  max-width: 183rem;
   margin: 0 auto;
   padding: 0 2.4rem;
 }
@@ -171,7 +171,7 @@ header {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url("images/cake-nav.jpg") center no-repeat;
+  background: url("images/donut.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -182,8 +182,8 @@ header {
   font-size: 8.5rem;
   font-family: var(--secondary-font);
   color: var(--secondary-font-color);
-  text-shadow: 1px 1px rgb(82, 80, 80);
-  font-weight: 300;
+  text-shadow: 1px 1px rgb(2, 1, 2);
+  font-weight: 600;
   line-height: 0.7;
   letter-spacing: 2px;
   opacity: 0;
@@ -195,8 +195,8 @@ header {
   font-size: 8.5rem;
   font-family: var(--secondary-font);
   color: var(--third-font-color);
-  text-shadow: 1px 1px rgb(82, 80, 80);
-  font-weight: 300;
+  text-shadow: 1px 1px rgb(2, 1, 2);
+  font-weight: 600;
   line-height: 0.7;
   letter-spacing: 2px;
   opacity: 0;
@@ -211,7 +211,7 @@ header {
 
 .headline {
   color: #fff;
-  font-size: 3.7rem;
+  font-size: 4.7rem;
   font-family: var(--main-font);
   text-shadow: 1px 1px rgb(82, 80, 80);
   text-transform: uppercase;
@@ -312,13 +312,13 @@ header {
   background-color: var(--secondary-font-color);
 }
 
-/* Discover our story */
+/* My story */
 .global-headline {
   text-align: center;
   margin-top: 3.9rem;
 }
 
-.discover-our-story .global-headline {
+.my-story .global-headline {
   margin-top: 6.9rem;
 }
 
@@ -338,7 +338,7 @@ header {
   line-height: 0.42;
 }
 
-.restaurant-info {
+.dessert-info {
   text-align: center;
 }
 
@@ -389,7 +389,7 @@ header {
 
 /* Tasteful recipes */
 .tasteful-recipes {
-  background: url("images/donut.jpg") center no-repeat;
+  background: url("images/tasteful.jpeg") center no-repeat;
   background-size: cover;
 }
 
@@ -403,29 +403,22 @@ header {
   color: var(--body-font-color);
 }
 
-/* Discover our menu */
+/* Carrot cake */
 .image-group {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
 }
-
-.discover-our-menu .restaurant-description {
+.sweetside .dessert-info {
   padding-top: 3rem;
   margin-bottom: 0;
-}
-
-/* The perfect blend */
-.perfect-blend {
-  background: url("images/recipes.jpg") center no-repeat;
-  background-size: cover;
 }
 
 /* Footer */
 footer {
   width: 100%;
   padding: 7.9rem;
-  background-color: #121212;
+  background-color: #000000;
   color: #fff;
   text-align: center;
   position: relative;
@@ -434,7 +427,7 @@ footer {
 .back-to-top {
   width: 7rem;
   height: 7rem;
-  background-color: #121212;
+  background-color: #000000;
   position: absolute;
   top: -3rem;
   left: 50%;
@@ -494,33 +487,6 @@ footer {
 .social-icons i:hover,
 .social-icons i:focus {
   color: var(--secondary-font-color);
-}
-
-.newsletter-form {
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.newsletter-input {
-  width: 100%;
-  max-width: 25rem;
-  padding: 1rem;
-  border-radius: 0.4rem;
-}
-
-.newsletter-btn {
-  background-color: transparent;
-  border: none;
-  color: var(--main-font-color-dark);
-  cursor: pointer;
-  font-size: 1.6rem;
-  padding: 1px 0.6rem;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 10.5rem;
 }
 
 /* Media queries */
@@ -593,7 +559,7 @@ footer {
     max-width: 11.4rem;
   }
 
-  .restaurant-info {
+  .dessert-info {
     display: flex;
     align-items: center;
   }
@@ -602,7 +568,7 @@ footer {
     max-width: auto;
   }
 
-  .restaurant-info > div {
+  .dessert-info > div {
     flex: 1;
   }
 
@@ -625,8 +591,7 @@ footer {
     justify-content: space-between;
   }
 
-  .social-media,
-  .newsletter-form {
+  .social-media {
     width: 100%;
     max-width: 27.3rem;
     margin: 0 1rem;
@@ -634,10 +599,6 @@ footer {
 
   .social-icons i {
     opacity: 1;
-  }
-
-  .newsletter-btn {
-    margin-left: 7.5rem;
   }
 }
 
