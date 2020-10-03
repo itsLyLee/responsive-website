@@ -182,7 +182,7 @@ header {
   font-size: 8.5rem;
   font-family: var(--secondary-font);
   color: var(--secondary-font-color);
-  text-shadow: 1px 1px rgb(2, 1, 2);
+  text-shadow: 1.2px 1.2px rgb(2, 1, 2);
   font-weight: 600;
   line-height: 0.7;
   letter-spacing: 2px;
@@ -199,6 +199,21 @@ header {
   font-weight: 600;
   line-height: 0.7;
   letter-spacing: 2px;
+  margin-bottom: 15px;
+  opacity: 0;
+  animation: fadeUp 0.5s forwards;
+  animation-delay: 0.5s;
+}
+
+.sub-headline-h4 {
+  font-size: 8.5rem;
+  font-family: var(--secondary-font);
+  color: var(--secondary-font-color);
+  text-shadow: 1.2px 1.2px rgb(2, 1, 2);
+  font-weight: 600;
+  line-height: 0.7;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
   opacity: 0;
   animation: fadeUp 0.5s forwards;
   animation-delay: 0.5s;
@@ -213,7 +228,7 @@ header {
   color: #fff;
   font-size: 4.7rem;
   font-family: var(--main-font);
-  text-shadow: 1px 1px rgb(82, 80, 80);
+  text-shadow: 1.2px 1.2px rgb(2, 1, 2);
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 0.5rem;
@@ -254,13 +269,11 @@ header {
 .line-right::before {
   border-right-color: #fff;
   right: 0;
-  text-shadow: 1px 1px rgb(82, 80, 80);
 }
 
 .line-left::before {
   border-left-color: #fff;
   left: 0;
-  text-shadow: 1px 1px rgb(82, 80, 80);
 }
 
 .asterisk {
@@ -342,11 +355,11 @@ header {
   text-align: center;
 }
 
-.restaurant-description {
+.sweetside {
   margin-bottom: 3rem;
 }
 
-.restaurant-description p {
+.sweetside p {
   line-height: 1.6;
   margin-bottom: 2.4rem;
 }
@@ -486,7 +499,15 @@ footer {
 
 .social-icons i:hover,
 .social-icons i:focus {
-  color: var(--secondary-font-color);
+  transform: scale(1.5);
+}
+
+#github i:hover {
+  color: rgb(124, 209, 124);
+}
+
+#linkedin i:hover {
+  color: #0e76a8;
 }
 
 /* Media queries */
