@@ -10,6 +10,12 @@ menuToggler.addEventListener("click", function () {
   body.classList.toggle("open");
 });
 
+document.querySelectorAll(".nav a").forEach((el) =>
+  el.addEventListener("click", function () {
+    body.classList.remove("open");
+  })
+);
+
 // Scroll reveal
 window.sr = ScrollReveal();
 
