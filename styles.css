@@ -28,6 +28,7 @@ html {
 
 body {
   overflow-x: hidden;
+  height: 1600px;
 }
 
 section {
@@ -44,12 +45,14 @@ img {
   font-family: var(--secondary-font);
   font-size: 30px;
   color: #fff;
+  padding-left: 20px;
 }
 
 .lylee-text {
   font-family: var(--secondary-font);
   color: var(--third-font-color);
-  font-size: 30px;
+  text-shadow: 1.2px 1.2px rgb(2, 1, 2);
+  font-size: 35px;
   letter-spacing: 2px;
   margin-bottom: -30px;
 }
@@ -84,11 +87,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+#nav-id {
+  background-color: rgb(56, 32, 20);
 }
 
 .menu-toggle {
   color: #fff;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -106,10 +119,11 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 80%;
+  width: 35%;
   height: 100vh;
-  background-color: var(--main-font-color-dark);
+  background-color: rgb(56, 32, 20);
   padding: 4.4rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -150,14 +164,14 @@ header {
 }
 
 .nav-item {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-right: 60px;
 }
 
 .nav-link {
   display: block;
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   margin-right: -2px;
   transition: color.5s;
@@ -303,28 +317,6 @@ header {
   margin-right: -3px;
 }
 
-.btn {
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-right: -2px;
-}
-
-.cta-btn {
-  font-size: 1.1rem;
-  background-color: #fff;
-  padding: 0.9rem 1.8rem;
-  color: var(--body-font-color);
-  border-radius: 0.4rem;
-  transition: background-color 0.5s;
-}
-
-.cta-btn:hover,
-.cta-btn:focus {
-  color: #fff;
-  background-color: var(--secondary-font-color);
-}
-
 /* My story */
 .global-headline {
   text-align: center;
@@ -431,8 +423,9 @@ header {
 footer {
   width: 100%;
   padding: 7.9rem;
-  background-color: #000000;
+  background-color: #382014;
   color: #fff;
+  text-shadow: 1.2px 1.2px rgb(2, 1, 2);
   text-align: center;
   position: relative;
 }
@@ -440,7 +433,7 @@ footer {
 .back-to-top {
   width: 7rem;
   height: 7rem;
-  background-color: #000000;
+  background-color: #382014;
   position: absolute;
   top: -3rem;
   left: 50%;
@@ -503,7 +496,7 @@ footer {
 }
 
 #github i:hover {
-  color: rgb(85, 173, 85);
+  color: rgb(90, 180, 90);
 }
 
 #linkedin i:hover {
